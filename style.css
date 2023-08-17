@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#main{
+    overflow-y: auto;
+    height: 100vh;
+    width: 300vw;
+}
+#page1{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-image: url("https://layerslider.com/wp-content/uploads/layerslider/Hiking/hiking.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#hero{
+    margin-left: 20vh;
+    height: 30vh;
+    width: 40vw;
+    color: #383838;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+}
+#hero h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #383838d1;
+    opacity: 1;
+}
+#hero h3:first-child{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #383838d1;
+}
+#hero h1{
+    opacity: 1;
+    font-size: 3.5rem;
+    /* margin-bottom: 1.8rem; */
+}
+#hero button{
+    height: 40px;
+    width: 140px;
+}
+#hero button:hover{
+    height: 40px;
+    width: 140px;
+    background-color: #333;
+    color: #E6E7EB;
+}
+#page2{
+    overflow-y: hidden;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #E6E7EB;
+}
+#page2 img{
+    height: 75%;
+    position: absolute;
+    /* background-color: black; */
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+#page2>#hero{
+    text-align: right;
+    height: fit-content;
+    margin-right: 10%;
+}
+#page2>#hero h3{
+    color: #E74C3C;
+    opacity: 0;
+    transform: translateX(-40%);
+}
+#page2>#hero h1{
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+#page3{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    background-color: #E6E7EB;
+}
+#page3>#hero{
+    text-align: right;
+    height: fit-content;
+    margin-right: 14%;
+}
+#page3 img{
+    height: 75%;
+    position: absolute;
+    /* background-color: black; */
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+#page3>#hero h3{
+    color: #E74C3C;
+    opacity: 0;
+    transform: translateX(-40%);
+}
+#page3>#hero h1{
+    opacity: 0;
+    transform: translateY(100%);
+}
+#nav{
+    position: fixed;
+    height: 5vw;
+    width: 100%;
+    z-index: 999;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vh;
+    /* word-spacing: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav h1{
+    text-transform: lowercase;
+    mix-blend-mode: difference;
+}
+#nav #logo{
+    /* background-color: blue; */
+    height: 100%;
+    width: 8%;
+    /* margin-top: 10px; */
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+}
+#nav i{
+    /* color: white; */
+    mix-blend-mode: difference;
+    font-size: 1.3rem;
+}
