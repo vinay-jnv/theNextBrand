@@ -75,7 +75,7 @@ html,body{
     height: 75%;
     position: absolute;
     /* background-color: black; */
-    top: 20%;
+    top: 60%;
     left: 15%;
     transform: translateY(-50%);
 }
@@ -238,7 +238,7 @@ html,body{
         height: 45%;
         position: absolute;
         /* background-color: black; */
-        top: 40%;
+        top: 60%;
         left: 5%;
         transform: translateY(-50%);
     }
